@@ -111,8 +111,9 @@
                         <td>' + (feature.properties['Authors'] !== null ? autolinker.link(feature.properties['Authors'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
+                    <tr>\
                         <th scope="row">Year</th>\
-                        <td>' + (feature.properties['Year'] !== null ? autolinker.link(parseInt(feature.properties['Year']).toLocaleString()) : '') + '</td>\
+                        <td>' + (feature.properties['Year'] !== null ? autolinker.link(Math.floor(feature.properties['Year']).toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
                         <th scope="row">DOI</th>\
@@ -206,7 +207,7 @@
                     </tr>\
                     <tr>\
                         <th scope="row">Year</th>\
-                        <td>' + (feature.properties['Year'] !== null ? autolinker.link(parseInt(feature.properties['Year']).toLocaleString()) : '') + '</td>\
+                        <td>' + (feature.properties['Year'] !== null ? autolinker.link(Math.floor(feature.properties['Year']).toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
                         <th scope="row">DOI</th>\
@@ -292,9 +293,8 @@
                     </tr>\
                     <tr>\
                         <th scope="row">Year</th>\
-                        <td>' + (feature.properties['Year'] !== null ? autolinker.link(parseInt(feature.properties['Year']).toLocaleString()) : '') + '</td>\
+                        <td>' + (feature.properties['Year'] !== null ? autolinker.link(Math.floor(feature.properties['Year']).toLocaleString()) : '') + '</td>\
                     </tr>\
-
                     <tr>\
                         <th scope="row">DOI</th>\
                         <td>' + (feature.properties['DOI'] !== null ? autolinker.link(feature.properties['DOI'].toLocaleString()) : '') + '</td>\
@@ -379,7 +379,7 @@
                     </tr>\
                     <tr>\
                         <th scope="row">Year</th>\
-                        <td>' + (feature.properties['Year'] !== null ? autolinker.link(parseInt(feature.properties['Year']).toLocaleString()) : '') + '</td>\
+                        <td>' + (feature.properties['Year'] !== null ? autolinker.link(Math.floor(feature.properties['Year']).toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
                         <th scope="row">DOI</th>\
@@ -463,7 +463,7 @@
                     </tr>\
                     <tr>\
                         <th scope="row">Year</th>\
-                        <td>' + (feature.properties['Year'] !== null ? autolinker.link(parseInt(feature.properties['Year']).toLocaleString()) : '') + '</td>\
+                        <td>' + (feature.properties['Year'] !== null ? autolinker.link(Math.floor(feature.properties['Year']).toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
                         <th scope="row">DOI</th>\
@@ -548,8 +548,8 @@
                         <td>' + (feature.properties['Authors'] !== null ? autolinker.link(feature.properties['Authors'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                    <th scope="row">Year</th>\
-                    <td>' + (feature.properties['Year'] !== null ? autolinker.link(parseInt(feature.properties['Year']).toLocaleString()) : '') + '</td>\
+                        <th scope="row">Year</th>\
+                        <td>' + (feature.properties['Year'] !== null ? autolinker.link(Math.floor(feature.properties['Year']).toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
                         <th scope="row">DOI</th>\
@@ -635,7 +635,7 @@
                     </tr>\
                     <tr>\
                         <th scope="row">Year</th>\
-                        <td>' + (feature.properties['Year'] !== null ? autolinker.link(parseInt(feature.properties['Year']).toLocaleString()) : '') + '</td>\
+                        <td>' + (feature.properties['Year'] !== null ? autolinker.link(Math.floor(feature.properties['Year']).toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
                         <th scope="row">DOI</th>\
